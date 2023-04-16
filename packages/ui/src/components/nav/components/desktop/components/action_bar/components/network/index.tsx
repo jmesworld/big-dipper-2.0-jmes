@@ -16,15 +16,15 @@ const Network: FC<NetworkProps> = ({ className, toggleNetwork }) => {
 
   return (
     <div
-      className={cx(classes.root, className)}
-      onClick={toggleNetwork}
-      role="button"
-      tabIndex={0}
-      aria-label={selectedName}
+    // className={cx(classes.root, className)}
+    // onClick={toggleNetwork}
+    // role="button"
+    // tabIndex={0}
+    // aria-label={selectedName}
     >
-      <ChainIcon type="icon" className={classes.icon} alt="icon" />
+      {/* <ChainIcon type="icon" className={classes.icon} alt="icon" />
       <Typography variant="body1">{selectedName}</Typography>
-      <ExpandMoreIcon />
+      <ExpandMoreIcon /> */}
     </div>
   );
 };

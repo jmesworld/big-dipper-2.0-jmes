@@ -1,9 +1,9 @@
 {
   "maintainer": {
-    "name": "Forbole",
-    "url": "https://forbole.com"
+    "name": "JMES World",
+    "url": "jmes.cloud"
   },
   "github": {
-    "reportIssue": "https://github.com/forbole/big-dipper-2.0-cosmos/issues"
+    "reportIssue": "https://github.com/jmesworld/big-dipper-2.0-jmes/issues"
   }
 }

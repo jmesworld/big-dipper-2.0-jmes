@@ -112,7 +112,7 @@ const ChainIcon = ({
       [iconDark, iconLight] =
         type === 'icon' ? [bitsongIconDark, bitsongIconDark] : [bitsongLogoDark, bitsongLogoDark];
       break;
-    case 'cosmos':
+    case 'JMES':
       [iconDark, iconLight] =
         type === 'icon' ? [cosmosIconLight, cosmosIconLight] : [cosmosLogoDark, cosmosLogoLight];
       break;
