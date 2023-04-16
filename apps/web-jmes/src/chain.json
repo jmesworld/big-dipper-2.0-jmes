@@ -199,8 +199,8 @@
       },
       "endpoints": {
         "graphql": "http://165.22.89.58:8080/v1/graphql",
-        "graphqlWebsocket": "wss://165.22.89.58:8080/v1/graphql",
-        "publicRpcWebsocket": "wss://165.22.89.58:8080/websocket"
+        "graphqlWebsocket": "ws://165.22.89.58:8080/v1/graphql",
+        "publicRpcWebsocket": "ws://165.22.89.58:8080/websocket"
       },
       "marketing": {
         "matomoURL": "https://analytics.bigdipper.live",
