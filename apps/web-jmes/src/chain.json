@@ -189,10 +189,10 @@
         "validator": "jmesvaloper",
         "account": "jmes"
       },
-      "primaryTokenUnit": "jmes",
-      "votingPowerTokenUnit": "jmes",
+      "primaryTokenUnit": "ujmes",
+      "votingPowerTokenUnit": "ujmes",
       "tokenUnits": {
-        "jmes": {
+        "ujmes": {
           "display": "jmes",
           "exponent": 6
         }
