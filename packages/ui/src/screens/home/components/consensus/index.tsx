@@ -24,7 +24,7 @@ const Consensus: FC<ComponentDefault> = ({ className }) => {
       fill: theme.palette.primary.main,
     },
   ];
-
+  console.log('state is: ', state);
   const circleSize = 200;
   const { name, address, imageUrl } = useProfileRecoil(state.proposer);
 

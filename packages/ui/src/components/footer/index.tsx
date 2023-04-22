@@ -31,18 +31,18 @@ const Footer: FC<{ className?: string }> = ({ className }) => {
         {/* ============================= */}
         {/* logo */}
         {/* ============================= */}
-        <div className="footer__logo--container">
+        {/* <div className="footer__logo--container">
           {theme === 'light' ? (
             <FooterLogoLight className="footer__logo" />
           ) : (
             <FooterLogoDark className="footer__logo" />
           )}
           <p className="footer__slogan">{title}</p>
-        </div>
+        </div> */}
         {/* ============================= */}
         {/* links */}
         {/* ============================= */}
-        <div className="footer__links">
+        {/* <div className="footer__links">
           {footerLinks.map((group) => (
             <div key={group.key} className={`${group.key} links__group`}>
               <h3>{t(`common:${group.key}`)}</h3>
@@ -53,9 +53,6 @@ const Footer: FC<{ className?: string }> = ({ className }) => {
               ))}
             </div>
           ))}
-          {/* ============================= */}
-          {/* social */}
-          {/* ============================= */}
           <div className="footer__social">
             <h3>{t('common:community')}</h3>
             <SocialMedia />
@@ -68,18 +65,11 @@ const Footer: FC<{ className?: string }> = ({ className }) => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <Divider />
       <div className="footer__closing--container">
-        <Typography className="footer__closing--text">
-          {/* ============================= */}
-          {/*
-            WARNING: WE ARE USING APACHE 2.0 LICENSE
-            DO YOUR RESEARCH BEFORE TRYING TO REMOVE/ EDIT THE FOLLOWING LINE(S)
-            RESPECT OPEN SOURCE!!
-          */}
-          {/* ============================= */}
+        {/* <Typography className="footer__closing--text">
           <Trans
             i18nKey="common:copyright"
             components={[
@@ -96,7 +86,7 @@ const Footer: FC<{ className?: string }> = ({ className }) => {
             }}
           />{' '}
           {year}
-        </Typography>
+        </Typography> */}
         <Typography className="footer__closing--text">
           <Trans
             i18nKey="common:maintainBy"
