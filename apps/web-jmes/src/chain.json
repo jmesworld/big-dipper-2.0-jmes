@@ -178,10 +178,10 @@
   },
   "chains": [
     {
-      "network": "jmes-888",
+      "network": "jmes-testnet-1",
       "chainType": "Testnet",
       "genesis": {
-        "time": "2023-03-20T16:56:50",
+        "time": "2023-05-03T18:34:13",
         "height": 1
       },
       "prefix": {
@@ -200,7 +200,7 @@
       "endpoints": {
         "graphql": "http://165.22.89.58:8080/v1/graphql",
         "graphqlWebsocket": "ws://165.22.89.58:8080/v1/graphql",
-        "publicRpcWebsocket": "ws://165.22.89.58:8080/websocket"
+        "publicRpcWebsocket": "ws://164.92.191.45:26657/websocket"
       },
       "marketing": {
         "matomoURL": "https://analytics.bigdipper.live",

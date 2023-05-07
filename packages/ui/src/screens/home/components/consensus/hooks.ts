@@ -45,7 +45,7 @@ type NewRoundResult = {
 };
 
 const wsEndpoints = [
-  process.env.NEXT_PUBLIC_RPC_WEBSOCKET,
+  // process.env.NEXT_PUBLIC_RPC_WEBSOCKET,
   endpoints.publicRpcWebsocket,
   endpoints.graphqlWebsocket,
   'ws://localhost:3000/websocket',
@@ -143,6 +143,7 @@ function useConnect() {
       subscribe(ws, pingHeader, KEEP_ALIVE);
     };
     ws.onmessage = (e) => {
+      console.log(JSON.parse(e.data as string));
       if (ws !== client) return;
       if (ws?.readyState !== WebSocket.OPEN) return;
       const data = JSON.parse(e.data as string);
